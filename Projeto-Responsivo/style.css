@@ -1,0 +1,182 @@
+*
+{ padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Oswald', sans-serif;
+
+
+}
+
+
+    .caixa-maior{
+        position: static;
+        background: rgba(93, 93, 125, 0.14);
+        mix-blend-mode: normal;
+        width: 30%;
+        height: auto;
+        margin-left: 71%;
+        height: 938px;
+
+               
+}
+
+
+.caixa-menor{
+        position: absolute;
+        width: 71%;
+        height: auto;
+        top: 231px;
+        padding: 200px;
+        right: 710px;
+    
+}
+h1{
+
+        font-size: 70px;
+        line-height: 80px;
+        color: #5D5D7D;
+        margin-right: 249px;
+}
+
+p{
+
+        font-size: 28px;
+        line-height: 48px;
+        color: #5D5D7D;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        margin-top: 15px;
+        margin-bottom: 27px;
+        word-break: break-all;
+}
+
+button{
+        width: 269px;
+        height: 62px;
+        background: #9499EA;
+        box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+        font-size: 24px;
+        line-height: 36px;
+        color: #FFFFFF;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        
+}
+.link-a {
+        margin: 30px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 41px;
+        color: #5D5D7D;
+        margin-left: 15px;
+        cursor: pointer;
+}
+
+.caixa-da-img{
+    margin-top: 170px;
+    position: absolute;
+    right: 260px;
+}
+
+header{
+    padding-top: 30px;
+    padding-top: 30px;
+    margin-left: 70px
+}
+
+
+button:active{
+        background: #8a8ee9;opacity: 0.5;
+}
+
+.link-a:active{ background: #9499EA;opacity: 0.5;}
+
+
+
+.link-a:hover{
+        opacity: 0.5;
+}
+
+button:hover{
+        opacity: 0.5;
+}
+
+
+
+@media (max-width: 1000px) 
+
+{ 
+
+
+        .caixa-menor{ 
+                width: 100%;
+                height: 50%;
+                padding: 0;
+                margin: 0;
+                display: block;
+                position: static;
+        }
+
+        .caixa-maior{
+                display: block;
+                height: auto;
+                width: auto;
+                position: fixed;
+                margin-top: 317px;
+                margin-left: 1px;
+
+        }
+
+        img{ position: static;
+                max-width: 80%;
+                
+        }
+
+        .caixa-da-img{ position: static;
+                margin-top: 1px;
+                padding: 40px;
+                
+               
+        }
+
+        .link-a{ display: none;}
+
+
+        h1{ 
+                width: auto;
+                height: 90px;
+                margin: 58px 50px 0px 50px;
+                font-size: 36px;
+                line-height: 52px;
+                color: #5D5D7D;
+                text-align: center;
+        
+        }
+
+        p{ 
+                font-size: 14px;
+                line-height: 24px;
+                color: #5D5D7D;
+                mix-blend-mode: normal;
+                opacity: 0.6;
+                margin: 15px 40px;
+                width: auto;
+                text-align: center;
+        }
+
+        button{
+                background: #9499EA;
+                box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+                margin: 0px auto;
+                display: block;
+        }
+
+       
+
+       
+
+
+
+
+}
